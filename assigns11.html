@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navs {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100px;
+            background-color: #f1f1f1;
+            position: fixed;
+            top:48px;
+            height:100%;
+        }
+
+        .lists a {
+            display:block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color on hover */
+        .lists a:hover {
+            background-color: #555;
+            color: white;
+        }
+        .nav{
+            list-style: none;
+            margin:0;
+            padding:15px;
+            overflow: hidden;
+            background-color:gray;
+            width:100%;
+            position:fixed;
+            top:0;
+            
+        }
+        .list{
+            float:left;
+            width:100px;
+            
+        }
+        .list a{
+            display:block;
+            color:black;
+            text-align: center;
+            padding:50px;
+            text-decoration:none;
+        }  
+    </style>
+</head>
+
+<body>
+    <!--Creating a Basic Layout-->
+    <header style="padding-top: 30px;">
+        <h1>
+            <center>w3schools</center>
+        </h1>
+    </header>
+    <nav>
+        <div>
+        <ul class="nav">
+            <li class="list">Home</li>
+            
+
+            <li class="list">HTML</li>
+            <li class="list">CSS</li>
+            <li class="list">JavaScript</li>
+            <li class="list">jQuery</li>
+        </ul>
+        </div>
+        <div>
+            <ul class="navs">
+                <li class="lists"><a href="#home">Introduction</a></li>
+                <li class="lists"><a href="#news">News</a></li>
+                <li class="lists"><a href="#contact">Contact</a></li>
+                <li class="lists"><a href="#about">About</a></li>
+            </ul>
+            </div>
+    </nav>
+
+    <article style="text-align: left;padding-left: 110px;">
+        <h1>Article</h1>
+        <p>The element specifies independent, self-contained content.An article should make sense on its own, and
+            it should be possible<br> to distribute it independently from
+            the rest of the web site.The element specifies independent, self-contained content.An article should make
+            sense on its own, and
+            it should be possible<br> to distribute it independently from
+            the rest of the web siteThe element specifies independent, self-contained content.An article should make
+            sense on its own, and
+            it should be possible<br> to distribute it independently from
+            the rest of the web siteThe element specifies independent, self-contained content.An article should make
+            sense on its own, and
+            it should be possible<br> to distribute it independently from
+            the rest of the web site</p>
+    </article>
+    <aside style="padding-left: 110px;">
+        <ul>
+           <li> Forum posts</li>
+           <li> Blog posts</li>
+           <li> User comments</li>
+            <li>Product cards</li>
+            <li>Newspaper articles</li>
+        </ul>
+    </aside>
+    <footer style="position:fixed;bottom: 0;text-align: center;background-color: black;color:white;width:100%;left:0;">
+        <p>Author:Ayusha</p>
+    </footer>
+
+</body>
+
+</html>

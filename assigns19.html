@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+            display: grid;
+            height: 400px;
+            align-content: end;
+            grid-template-columns: auto auto auto;
+            gap: 5px;
+            background-color:antiquewhite;
+            padding: 0px;
+            
+  
+        }
+
+        .grid-container>div {
+        
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom:0;
+        
+        }
+    </style>
+</head>
+
+<body>
+    <!--Grid Basics-->
+    <h1>
+        <center>Product Catalog</center>
+    </h1><br><br><br>
+    <div class="grid-container">
+        
+        <div><img src="https://m.media-amazon.com/images/I/410-S+aE6TL._AC_UF452,452_FMjpg_.jpg" height="300px"
+                width="200px"><br>Smartwatch</div>
+        <div><img src="https://m.media-amazon.com/images/I/61kCTnNQe6L._AC._SR360,460.jpg" height="300px" width="200px">
+        <br>Headphones</div>
+        <div><img src="https://m.media-amazon.com/images/I/61BVEWbEDQL._AC._SR360,460.jpg" height="300px" width="200px">
+      <br> Tablet </div>
+    </div>
+</body>
+
+</html>
